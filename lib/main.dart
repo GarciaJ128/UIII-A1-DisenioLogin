@@ -71,7 +71,8 @@ class Login extends StatelessWidget {
                           autofocus: false,
                           decoration: InputDecoration(
                             hintText: "Correo Electrónico",
-                            prefixIcon: Icon(Icons.email),
+                            prefixIcon:
+                                Icon(Icons.email, color: Color(0xff6b2669)),
                             contentPadding: EdgeInsets.all(10),
                             hintStyle:
                                 TextStyle(color: Colors.grey, fontSize: 18),
@@ -90,7 +91,8 @@ class Login extends StatelessWidget {
                           autofocus: false,
                           decoration: InputDecoration(
                             hintText: "Contraseña",
-                            prefixIcon: Icon(Icons.security),
+                            prefixIcon:
+                                Icon(Icons.security, color: Color(0xff6b2669)),
                             contentPadding: EdgeInsets.all(10),
                             hintStyle:
                                 TextStyle(color: Colors.grey, fontSize: 18),
