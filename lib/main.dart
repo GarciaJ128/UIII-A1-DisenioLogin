@@ -14,7 +14,8 @@ class Login extends StatelessWidget {
       home: Container(
         decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('assets/fondo_principal.jpg'),
+                image: NetworkImage(
+                    'https://raw.githubusercontent.com/GarciaJ128/Img_IOS/main/fondo_principal.jpg'), // Reemplaza 'URL_DE_TU_IMAGEN' con la URL real de tu imagen de fondo
                 fit: BoxFit.cover)),
         child: Scaffold(
           backgroundColor: Colors.transparent,
@@ -23,7 +24,12 @@ class Login extends StatelessWidget {
               const SizedBox(height: 50),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [Image.asset('assets/logo.png', width: 100)],
+                children: [
+                  Image.network(
+                      'https://raw.githubusercontent.com/GarciaJ128/Img_IOS/main/logo.png',
+                      width:
+                          100), // Reemplaza 'URL_DE_TU_LOGO' con la URL real de tu logo
+                ],
               ),
               const SizedBox(height: 20),
               Padding(
