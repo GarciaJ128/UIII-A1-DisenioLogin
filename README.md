@@ -22,4 +22,5 @@ samples, guidance on mobile development, and a full API reference.
 - https://www.youtube.com/watch?v=wwLP49xXBHc
 
 ## Resultados
-![image](https://github.com/GarciaJ128/UIII-A1-DisenioLogin/assets/143743623/8e780fee-cbb5-4cfa-ba84-9c9cc22aad40)
+![image](https://github.com/GarciaJ128/UIII-A1-DisenioLogin/assets/143743623/4ae5adca-4a0e-4ea3-beba-b2208e8cd31e)
+
